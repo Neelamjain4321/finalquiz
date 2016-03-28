@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="ru.finalsoft.finalquiz"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="ru.finalsoft.finalquiz.LoginActivity"
+            android:label="@string/app_name"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="ru.finalsoft.finalquiz.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="ecms.mbcsoft.ru"
+                    android:pathPrefix="/myresults"
+                    android:scheme="http"/>
+                <data
+                    android:host="ecms.mbcsoft.ru"
+                    android:pathPrefix="/tests"
+                    android:scheme="http"/>
+                <data
+                    android:host="quizzes"
+                    android:scheme="finalquiz"/>
+                <data
+                    android:host="myResults"
+                    android:scheme="finalquiz"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="ru.finalsoft.finalquiz.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="ru.finalsoft.finalquiz.MainActivity"/>
+
+        <meta-data
+            android:name=".MainActivity"
+            android:value=".SettingsActivity"/>
+
+        <activity
+            android:name="ru.finalsoft.finalquiz.QuizActivity"
+            android:theme="@style/AppTheme.NoActionBarPrimary"/>
+
+        <activity
+            android:name=".UserResultActivity"
+            android:theme="@style/AppTheme.NoActionBarPrimaryDark"/>
+    </application>
+
+</manifest>

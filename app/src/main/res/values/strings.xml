@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name" translatable="false">Final Quiz</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="action_sign_in">Sign in / Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_login_or_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="json_error" translatable="false">JSON Error</string>
+    <string name="password">Password</string>
+    <string name="site_is_offline">The server is offline</string>
+    <string name="error_email">This email address is invalid</string>
+    <string name="email_occupied">This password is incorrect</string>
+    <string name="_unable_to_resolve_host">Unable to resolve host. Check your internet connection and try again.</string>
+    <string name="_server_response_error">Server response error</string>
+    <string name="_session_expired">Session expired</string>
+    <string name="title_activity_login">Log in</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="all_quizzes">All quizzes</string>
+    <string name="try_to_log_in">Logging in..</string>
+    <string name="registered_and_logged_in">You have successfully registered and logged in.</string>
+    <string name="error">Error</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_quizzes">Quizzes</string>
+    <string name="menu_random_quiz">Random quiz</string>
+    <string name="menu_results">My results</string>
+    <string name="last_sync">Last synchronization</string>
+    <string name="sync_started">The synchronization has started</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_first_name">Display first name</string>
+    <string name="pref_default_display_first_name">John</string>
+    <string name="pref_title_display_last_name">Display last name</string>
+    <string name="pref_default_display_last_name">Smith</string>
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>24 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_get_notifications">Enable notifications on Email</string>
+    <string name="pref_get_notifications_description">Уведомления о добавлении новых тестов и последние новости сервиса</string>
+    <string name="title_activity_quizze">Прохождение</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_my_results">My results</string>
+    <string name="bad_sync">failed</string>
+
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="answer">Answer</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="want_exit">Are you sure you want to exit?</string>
+    <string name="confirm">Answer</string>
+    <string name="quiz_continue">Continue</string>
+    <string name="quiz_finish">Finish</string>
+    <string name="request_processing">Request processing…</string>
+    <string name="btn_quiz_restart">Try again</string>
+    <string name="btn_share">Share</string>
+    <string name="quiz">quiz</string>
+    <string name="quiz_is_passed">is passed!</string>
+    <string name="quiz_score">SCORE</string>
+    <string name="result_list_points">from</string>
+    <string name="update">Update</string>
+    <string name="share_result">Share result</string>
+    <string name="text_share">I\'ve got %1$d from %2$d in the quiz "%3$s". Enjoy!</string>
+    <string name="result_is_pending">Result is pending review</string>
+    <string name="check_for_updates">Check for updates</string>
+    <string name="current_version">Current version: %1$s</string>
+    <string name="account">Account</string>
+</resources>

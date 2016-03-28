@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_logout">Выход</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_sign_in">Войти / Зарегестрироваться</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="email_occupied">Пароль указан неверно</string>
+    <string name="error_email">Email указан неверно</string>
+    <string name="error_field_required">Заполните данное поле</string>
+    <string name="error_invalid_email">Email указан неверно</string>
+    <string name="error_invalid_password">Пароль должен содержать не менее 5 символов</string>
+    <string name="error_login_or_password">Пароль указан неверно</string>
+    <string name="password">Пароль</string>
+    <string name="_server_response_error">Ошибка сервера</string>
+    <string name="_session_expired">Сессия недействительна</string>
+    <string name="site_is_offline">Сервер временно не работает</string>
+    <string name="title_activity_login">Вход</string>
+    <string name="all_quizzes">Все тесты</string>
+    <string name="_unable_to_resolve_host">Ошибка! Проверьте ваше соединение.</string>
+    <string name="try_to_log_in">Авторизация..</string>
+    <string name="registered_and_logged_in">Вы успешно зарегестрировались!</string>
+    <string name="error">Ошибка</string>
+    <string name="menu_quizzes">Тесты</string>
+    <string name="menu_random_quiz">Случайный тест</string>
+    <string name="menu_results">Мои результаты</string>
+    <string name="last_sync">Последняя синхронизация</string>
+    <string name="sync_started">Синхронизация началась</string>
+    <string name="pref_header_general">Основные</string>
+    <string name="pref_header_data_sync">Синхронизация данных</string>
+    <string name="pref_title_display_first_name">Имя</string>
+    <string name="pref_title_display_last_name">Фамилия</string>
+    <string name="title_activity_settings">Настройки</string>
+
+    <string name="pref_title_sync_frequency">Периодичность</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>6 часов</item>
+        <item>12 часов</item>
+        <item>24 часа</item>
+        <item>Никогда</item>
+    </string-array>
+    <string name="pref_get_notifications">Получать уведомления на Email</string>
+    <string name="pref_get_notifications_description">Уведомления о добавлении новых тестов и последние новости сервиса</string>
+    <string name="title_my_results">Мои результаты</string>
+    <string name="bad_sync">не удалась</string>
+    <string name="answer">Ответ</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="want_exit">Вы уверены, что хотите прервать тестирование?</string>
+    <string name="confirm">Ответить</string>
+    <string name="quiz_continue">Пропустить</string>
+    <string name="quiz_finish">Завершить</string>
+    <string name="request_processing">Обработка запроса…</string>
+    <string name="btn_quiz_restart">Повторить попытку</string>
+    <string name="btn_share">Поделиться</string>
+    <string name="quiz">тест</string>
+    <string name="quiz_is_passed">пройден!</string>
+    <string name="quiz_score">БАЛЛОВ</string>
+    <string name="result_list_points">из</string>
+    <string name="update">Обновить</string>
+    <string name="share_result">Поделиться результатом</string>
+    <string name="text_share">Я набрал %1$d из %2$d в тесте "%3$s". Присоединяйся!</string>
+    <string name="result_is_pending">Результат ожидает проверки</string>
+    <string name="check_for_updates">Проверить обновления</string>
+    <string name="current_version">Текущая версия: %1$s</string>
+    <string name="account">Аккаунт</string>
+</resources>
